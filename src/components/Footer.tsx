@@ -19,9 +19,9 @@ export const Footer = () => (
     </div>
     <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
       <div className="flex flex-col items-start gap-1">
-        <span className="text-2xl font-playfair font-bold tracking-wide">桜Tech</span>
+        <span className="text-2xl font-playfair font-bold tracking-wide">桜Tech Studio</span>
         <span className="text-base text-pink-100 bg-white/10 rounded-full px-3 py-1 font-medium shadow-sm inline-block mb-1">サクラテックスタジオ</span>
-        <span className="text-sm opacity-80">&copy; {new Date().getFullYear()} Sakura Tech Studio</span>
+        <span className="text-sm opacity-80">&copy; {new Date().getFullYear()} Tech Studio</span>
       </div>
       <div className="flex items-center gap-6">
         {socialLinks.map(link => (

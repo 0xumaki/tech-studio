@@ -65,14 +65,19 @@ export const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold font-playfair mb-6 bg-gradient-to-r from-purple-700 via-pink-500 to-yellow-500 bg-clip-text text-transparent leading-tight">
             Tech Studio
           </h1>
+
+          {/* Tagline with Better Spacing */}
+          <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto leading-relaxed font-medium">
+            We're developing
+          </p>
           
           {/* Tagline with Better Spacing */}
           <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto leading-relaxed font-medium">
-            Where timeless design meets cutting-edge blockchain and AI technologies
+            Websites, iOS Apps, Android Apps, AIs, Blockchains, Smart Contracts, NFTs for you
           </p>
           
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto opacity-90">
-            Crafting digital experiences with exceptional precision and care
+            Our expertise turns your dreams into a money-making machine
           </p>
           
           {/* Enhanced CTA Buttons */}

@@ -30,7 +30,7 @@ const techStacks = [
     gradient: 'from-yellow-500 via-orange-400 to-pink-400',
     stack: [
       { name: 'Solidity', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg' },
-      { name: 'Ethereum', logo: 'https://img.icons8.com/fluent/512/ethereum.png' },
+      { name: 'Ethereum', logo: 'https://static.vecteezy.com/system/resources/previews/002/463/890/non_2x/ethereum-logo-color-crypto-currency-symbol-isolated-vector.jpg' },
       { name: 'Hardhat', logo: 'https://moralis.com/wp-content/uploads/web3wiki/24hardhat/6381641b6a60932fb3c3c2d9_crsLQ2lVok-0X37hZ_7RSl62vTm5GRP0Ws4xyPt4E5I.jpeg' },
       { name: 'Polygon', logo: 'https://altcoinsbox.com/wp-content/uploads/2023/03/matic-logo.png' },
       { name: 'Web3.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/web3js/web3js-original.svg' },
@@ -46,7 +46,7 @@ const techStacks = [
     stack: [
       { name: 'Docker', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
       { name: 'Kubernetes', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg' },
-      { name: 'AWS', logo: 'https://img.icons8.com/color/512/amazon-web-services.png' },
+      { name: 'AWS', logo: 'https://images.seeklogo.com/logo-png/31/2/amazon-web-services-aws-logo-png_seeklogo-319188.png' },
       { name: 'GCP', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg' },
       { name: 'Nginx', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg' },
       { name: 'Linux', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },

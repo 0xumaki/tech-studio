@@ -93,15 +93,15 @@ export const AboutSection = () => {
                   {/* Stats Grid */}
                   <div className="grid grid-cols-3 gap-6 pt-8 border-t border-white/30">
                     <div className="text-center">
-                      <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent mb-2">100+</div>
+                      <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent mb-2">40+</div>
                       <div className="text-sm text-gray-600 font-medium">Projects Delivered</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-4xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-700 bg-clip-text text-transparent mb-2">50+</div>
+                      <div className="text-4xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-700 bg-clip-text text-transparent mb-2">34+</div>
                       <div className="text-sm text-gray-600 font-medium">Happy Clients</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent mb-2">5+</div>
+                      <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent mb-2">12+</div>
                       <div className="text-sm text-gray-600 font-medium">Years Experience</div>
                     </div>
                   </div>

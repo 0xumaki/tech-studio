@@ -13,24 +13,15 @@ export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Play send message sound
-    if (audioRef.current) {
-      audioRef.current.currentTime = 0;
-      audioRef.current.play();
-    }
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    console.log('Form submitted:', formData);
-    setIsSubmitting(false);
-    
-    // Reset form
-    setFormData({ name: '', email: '', service: '', message: '' });
+    const { name, email, service, message } = formData;
+    // Construct mailto link
+    const subject = encodeURIComponent(`New Project Inquiry: ${service}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nService: ${service}\n\nMessage:\n${message}`
+    );
+    window.location.href = `mailto:hatake.kakashi68@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -41,12 +32,6 @@ export const ContactSection = () => {
   };
 
   const contactInfo = [
-    {
-      icon: <Clock className="w-6 h-6 text-purple-600" />,
-      label: "Working Hours",
-      value: "Mon-Sat, 10am-6pm",
-      subtext: "We reply within 2 hours"
-    },
     {
       icon: <Briefcase className="w-6 h-6 text-purple-600" />,
       label: "Project Consultation",
@@ -131,11 +116,11 @@ export const ContactSection = () => {
                       required
                     >
                       <option value="">Select a service (サービス選択)</option>
-                      <option value="ai">AI Services</option>
-                      <option value="blockchain">Blockchain Development</option>
-                      <option value="infrastructure">Blockchain Infrastructure</option>
-                      <option value="apps">Application Development</option>
-                      <option value="custom">Custom Solution</option>
+                      <option value="AI Services">AI Services</option>
+                      <option value="Blockchain Development">Blockchain Development</option>
+                      <option value="Blockchain Infrastructure">Blockchain Infrastructure</option>
+                      <option value="Application Development">Application Development</option>
+                      <option value="Custom Solution">Custom Solution</option>
                     </select>
                   </div>
                   

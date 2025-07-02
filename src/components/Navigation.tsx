@@ -33,7 +33,7 @@ export const Navigation = () => {
             {/* Manga burst accent */}
             <div className="absolute -left-6 -top-4 w-20 h-20 manga-burst" />
             <div className="manga-speech font-manga text-2xl text-purple-700 font-bold drop-shadow-lg">
-              桜<span className="text-yellow-500">Tech</span>
+              桜<span className="text-yellow-500">Tech Studio</span>
             </div>
           </div>
           {/* Desktop Navigation */}

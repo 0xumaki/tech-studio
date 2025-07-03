@@ -49,7 +49,7 @@ export const Hero = () => {
       <div className="absolute top-1/2 right-10 w-16 h-16 border-4 border-yellow-400/50 rotate-45 animate-float" style={{ animationDelay: '0.5s' }} />
       
       {/* Main Content with Enhanced Typography */}
-      <div className="text-center z-10 max-w-5xl mx-auto px-4">
+      <div className="text-center z-10 max-w-5xl mx-auto px-4 pt-24 md:pt-0">
         <div className="animate-slide-up">
           {/* Japanese Character with Enhanced Styling */}
           <div className="mb-8 relative">

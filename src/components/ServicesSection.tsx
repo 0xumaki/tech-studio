@@ -47,7 +47,7 @@ export const ServicesSection = () => {
         "Private & permissioned networks",
         "Public blockchain architectures",
         "Hybrid blockchain solutions",
-        "Consensus mechanism optimization"
+        "Tokenized asset development"
       ],
       gradient: "from-green-500 via-green-600 to-teal-500",
       bgGradient: "from-green-50 to-teal-50",

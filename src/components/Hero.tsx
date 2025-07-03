@@ -81,7 +81,7 @@ export const Hero = () => {
           </p>
           
           {/* Enhanced CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-24 md:mb-0">
             <button 
               onClick={() => scrollToSection('services')}
               className="group px-10 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 animate-glow relative overflow-hidden"

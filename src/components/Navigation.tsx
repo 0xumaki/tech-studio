@@ -52,14 +52,14 @@ export const Navigation = () => {
             </div>
           </div>
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-purple-700 p-2"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* Mobile Navigation */}
